@@ -54,27 +54,35 @@ class ComboBoxFrame extends JFrame{
 						box1.setVisible(true);
 						if(box.getSelectedIndex() == 0 || box.getSelectedIndex() == 1) {
 							box1.setSelectedIndex(12);
+							box1.setBackground(Color.GRAY);
 						}
 						if(box.getSelectedIndex() == 2) {
 							box1.setSelectedIndex(13);
+							box1.setBackground(Color.LIGHT_GRAY);
 						}
 						if(box.getSelectedIndex() == 3 || box.getSelectedIndex() == 4) {
 							box1.setSelectedIndex(14);
+							box1.setBackground(Color.GREEN);
 						}
 						if(box.getSelectedIndex() == 5) {
 							box1.setSelectedIndex(15);
+							box1.setBackground(Color.PINK);
 						}
 						if(box.getSelectedIndex() == 6 || box.getSelectedIndex() == 7) {
 							box1.setSelectedIndex(16);
+							box1.setBackground(Color.YELLOW);
 						}
 						if(box.getSelectedIndex() == 8) {
 							box1.setSelectedIndex(17);
+							box1.setBackground(Color.ORANGE);
 						}
 						if(box.getSelectedIndex() == 9 || box.getSelectedIndex() == 10) {
 							box1.setSelectedIndex(18);
+							box1.setBackground(Color.magenta);
 						}
 						if(box.getSelectedIndex() == 11) {
 							box1.setSelectedIndex(19);
+							box1.setBackground(Color.LIGHT_GRAY);
 						}
 						
 					}
