@@ -89,7 +89,7 @@ class ComboBoxFrame extends JFrame{
 				});
 			}
 		}catch(Exception e) {
-			System.out.println("Errore");
+			System.out.println("Hai commesso un errore");
 			e.printStackTrace();
 		}
 		JPanel comboPanel = new JPanel();
